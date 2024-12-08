@@ -1,0 +1,256 @@
+@media screen and (max-width: 769px) {
+  #sustain {
+    position: relative;
+    left: -30px;
+  }
+  #motive {
+    flex-direction: column;
+  }
+  #motive p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #onespan {
+    width: 40px;
+    height: 20px;
+  }
+  #twospan {
+    width: 60px;
+    height: 20px;
+  }
+  #threespan {
+    width: 40px;
+    height: 20px;
+  }
+  #firstpic p {
+    font-size: 10px;
+  }
+  #secpic p {
+    width: 80%;
+    font-size: 10px;
+  }
+  #ftext button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  #future {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #nav {
+    padding: 10px 20px;
+    position: relative;
+  }
+  #nright {
+    position: absolute;
+    right: 10px;
+  }
+  #centertag {
+    padding-top: 22px;
+  }
+  #nleft {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  #nleft #menu {
+    display: block;
+    font-size: 20px;
+  }
+  .toggle {
+    display: none;
+  }
+  #hero {
+    flex-direction: column;
+    gap: 15vw;
+  }
+  #sustain {
+    position: relative;
+    left: 4px;
+  }
+  #resSus {
+    position: absolute;
+    left: -150px;
+    width: 150px;
+    top: 60px;
+  }
+  #sustain #resSus h2 {
+    font-size: 30px;
+    width: 80%;
+  }
+  #sustain #resSus p {
+    font-size: 14px;
+    width: 200px;
+    width: 100%;
+  }
+  #susimgwarpper {
+    position: absolute;
+    left: 80px;
+  }
+  #sustain #susimgwarpper {
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 300px;
+  }
+  #ephemeral {
+    width: 280px;
+    height: 420px;
+  }
+  #ephemeral #headings {
+    top: -48px;
+    left: -20px;
+  }
+  #ephemeral h1 {
+    font-size: 35px;
+    letter-spacing: -1px;
+  }
+  #ephemeral p {
+    width: 60%;
+    font-size: 10px;
+    letter-spacing: -0.07px;
+  }
+  #visit {
+    margin-top: 30px;
+  }
+  #cricleV {
+    width: 25px;
+    height: 25px;
+  }
+  #motive {
+    padding: 10px 25px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  #motive h3 {
+    position: relative;
+    top: -15px;
+    left: -15px;
+  }
+  #motive p {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #motive span {
+    margin-bottom: -8.5px;
+  }
+  #onespan {
+    width: 40px;
+    height: 20px;
+  }
+  #twospan {
+    width: 60px;
+    height: 20px;
+  }
+  #threespan {
+    width: 40px;
+    height: 20px;
+  }
+  #picture {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  #firstpic {
+    width: 200px;
+  }
+  #firstpic #picimg {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  #firstpic h1 {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  #secpic {
+    width: 200px;
+  }
+  #secpic #picimg {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  #banner {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  #btext {
+    padding: 0px 10px;
+  }
+  #btext h1 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    left: -18vw;
+    top: 15px;
+  }
+  #btext p {
+    width: 200px;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 6px;
+    opacity: 0.8;
+    position: relative;
+    left: -18vw;
+    top: 15px;
+  }
+  #ftext {
+    padding: 10px 20px;
+  }
+  #ftext button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #future {
+    height: 45vh;
+  }
+  #ftext {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  #ftext button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 321px) {
+  #hero {
+    gap: 30vw;
+  }
+  #resSus {
+    left: -120px;
+    width: 80px;
+    top: 60px;
+  }
+  #sustain #resSus h2 {
+    font-size: 20px;
+  }
+  #sustain #resSus p {
+    font-size: 12px;
+    width: 150px;
+  }
+  #susimgwarpper {
+    left: 30px;
+  }
+  #future {
+    height: 35vh;
+  }
+  #ftext {
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+  #ftext button {
+    padding: 10px 15px;
+    font-size: 8px;
+  }
+}
